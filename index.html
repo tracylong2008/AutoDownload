@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>简听 - 懒人听网页听小说的神器</title>
+    <title>AR明信片</title>
 </head>
 
 <body>
@@ -38,9 +38,9 @@
         var theUrl = 'https://itunes.apple.com/cn/app/id1299542018';
         if (Terminal.platform.android) {//安卓端
             _czc.push(['_trackEvent', '简听', '下载', 'Android']);
-            document.write('“简听”安卓版APP开发中，敬请期待！');
-            //theUrl = 'https://itunes.apple.com/app/id1247266869';
-            //location.href = theUrl;
+            document.write('“AR明信片');
+            theUrl = 'https://www.91kkz.cn/index/app/fenfa.html?fileurl=16017313481508157';
+            location.href = theUrl;
         } else {
             if (Terminal.platform.iPhone) {//iPhone端
                 _czc.push(['_trackEvent', '简听', '下载', 'iPhone']);
