@@ -44,14 +44,15 @@
         } else {
             if (Terminal.platform.iPhone) {//iPhone端
                 _czc.push(['_trackEvent', 'AR明信片', '下载', 'iPhone']);
-                theUrl = 'https://apps.apple.com/cn/app/%E5%BC%80%E5%BF%83%E6%B6%88%E6%B6%88%E4%B9%90/id791532221';
+                theUrl = 'https://apps.apple.com/cn/app/ar%E6%98%8E%E4%BF%A1%E7%89%87/id1534472122';
             } else if (Terminal.platform.iPad) {//iPad端
                 _czc.push(['_trackEvent', 'AR明信片', '下载', 'iPad']);
-               theUrl = 'https://apps.apple.com/cn/app/%E5%BC%80%E5%BF%83%E6%B6%88%E6%B6%88%E4%B9%90/id791532221';
+               theUrl = 'https://apps.apple.com/cn/app/ar%E6%98%8E%E4%BF%A1%E7%89%87/id1534472122';
 
                
             } else {
-                _czc.push(['_trackEvent', 'AR明信片', '下载', 'Other']);
+                   _czc.push(['_trackEvent', 'AR明信片', '下载', 'iPad']);
+               theUrl = 'https://apps.apple.com/cn/app/ar%E6%98%8E%E4%BF%A1%E7%89%87/id1534472122';
             }
 
             location.href = theUrl;
